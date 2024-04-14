@@ -11,7 +11,7 @@ const Card = () => {
     <div className='m-14'>
     <p className='text-4xl m-2 font-mono'>Personal Achievements</p>
     <br></br>
-    <div className="card-container flex justify-between">
+    <div className="card-container flex justify-between overflow-x: auto">
         <div className="card w-96 bg-white shadow-xl">
             <figure className="px-10 pt-10">
             <Image  src= {Rotaract} alt='Rotaract club'/>       
