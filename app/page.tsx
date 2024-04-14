@@ -1,6 +1,34 @@
-import Image from 'next/image'
+import Navbar from './components/Navbar'
+import Intro from './components/Intro'
+import Timeline from './components/Timeline'
+import Card from './components/Card'
+import Footer from './components/Footer'
+import Avatar from './components/Avatar'
 
-export default function Home() {
+
+
+export default function Home(){
+  return (
+    <main >
+      <Navbar/> 
+      <Intro/>
+      <Timeline/>
+      <Avatar/>
+      <br></br>
+      <Card/>
+      <Footer/>
+    </main>
+  )
+}
+
+
+
+
+
+
+
+//original website, save as reference if needed
+/*export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -110,4 +138,4 @@ export default function Home() {
       </div>
     </main>
   )
-}
+}*/

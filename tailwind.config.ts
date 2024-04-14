@@ -15,6 +15,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")], //need to set plugins to use daisyui
+  daisyui: {
+    themes: ["autumn"],
+  }
 }
 export default config
